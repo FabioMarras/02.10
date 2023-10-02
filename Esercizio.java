@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Esercizio {
     public static void main(String[] args) {
         String[] fiveString = {"primo", "secondo", "terzo", "quarto", "quinto"};
@@ -14,6 +16,8 @@ public class Esercizio {
         for (String elements : fiveString) {
             System.out.println(elements);
         }
+        System.out.println("primo con 5: " + Arrays.toString(fiveString));
+        System.out.println("primo con 6: " + Arrays.toString(myArray));
         System.out.println("Array con il nuovo elemento: ");
         for (String elements : myArray) {
             System.out.println(elements);

@@ -18,7 +18,16 @@ public class Esercizio2 {
             System.out.println(myArray[i]);
         }
 
+        System.out.println(reverse(name, surname, eta));
+        System.out.println(contact(name, surname, eta));
+
         input.close();
+    }
+    public static String reverse(String str1, String str2, String str3) {
+        return str3 + str2 + str1;
+    }
+    public static String contact(String str1, String str2, String str3) {
+        return str1 + str2 + str3;
     }
 }
 
